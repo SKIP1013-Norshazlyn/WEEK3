@@ -1,0 +1,47 @@
+package numericData;
+/*
+ * Add five integers and display their sum
+ * Display average
+ */
+
+public class Exercise1 { //Exercise1 is java class name
+
+	public static void main(String[] args) {
+		
+		int num1 = 11;// Declare  integer variable and assign a value
+		int num2 = 22;
+		int num3 = 33;
+		int num4 = 44;
+		int num5 = 55;
+		double num6 = 66;
+		double num7 = 88;
+		float num8 = 99;
+		float num9 = 200;
+		
+		int sum;// Declare an integer variable called sum to hold the sum value
+		int average;
+		double div;
+		float div2;
+		double mul;
+		float calc;
+		
+		div = num7/num6;
+		sum = num1 + num2 + num3 + num4 + num5;//Compute sum
+		average = sum / 5;
+		div2 = num9/num8;
+		mul = num1*num2*num3*num4*num5*num6*num7*num8*num9;
+		calc = (num1*num2)/num3;
+		
+		System.out.println("The sum is " +sum);
+		System.out.println("The average is " +average);
+		System.out.printf("The devide number is %.2f" ,div);
+		System.out.println("");
+		System.out.printf("The divide float number %.2f is" ,div2);
+		System.out.println("");
+		System.out.printf("The multiplication number is %.2f" ,mul);
+		System.out.println("");
+		System.out.printf("The total is %.2f" ,calc);
+ 
+	}
+
+}
