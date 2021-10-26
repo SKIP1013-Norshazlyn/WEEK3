@@ -1,0 +1,25 @@
+package numericData;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name = "Norshazlyn Idayu binti Zaidi";
+		String pgm = "Science";
+		
+		double gpa1 = 3.59;
+		double gpa2 = 3.60;
+		double cgpa = (gpa1 + gpa2)/ 2;
+		
+		System.out.println("Name : " +name);
+		System.out.println("Programme : " +pgm);
+		System.out.println("College : Kolej Matrikulasi Pulau Pinang");
+		System.out.println("No. Matrik : MS2013102409");
+		System.out.println("GPA SEMESTER 1 :" +gpa1);
+		System.out.println("GPA SEMESTER 2 :" +gpa2);
+		System.out.printf("CGPA : %.2f" ,cgpa);
+
+	}
+
+}
